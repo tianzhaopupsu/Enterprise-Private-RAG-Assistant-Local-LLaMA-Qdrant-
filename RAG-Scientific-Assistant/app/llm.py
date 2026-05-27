@@ -27,7 +27,6 @@ class LocalLlama:
 
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
-        # ✅ REPLACE your old generate() block with this
         output = self.model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
