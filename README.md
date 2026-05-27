@@ -77,7 +77,7 @@ RAG-Scientific-Assistant/
 
 
 
-⚙️ Installation
+##⚙️ Installation
 1. Clone repository
 ```python
 git clone <your_repo_url>
@@ -123,7 +123,7 @@ COLLECTION_NAME=scientific_rag
 
 EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
 ```
-📚 Document Ingestion
+##📚 Document Ingestion
 
 Place a PDF inside:
 
@@ -142,7 +142,7 @@ This will:
 3. Generate embeddings
 4. Store vectors in Qdrant
    
-💬 Run Chatbot (CLI)
+##💬 Run Chatbot (CLI)
 ```python
 python main.py
 ```
@@ -157,7 +157,7 @@ Sources:
 [1] Page 4
 Copyright © 2007 Paul Wilmott...
 ```
-🌐 Run Web UI (Gradio)
+##🌐 Run Web UI (Gradio)
 
 ```python
 python app_ui.py
@@ -166,41 +166,44 @@ Open:
 ```python
 http://127.0.0.1:7860
 ```
-🧪 Model Configuration
-LLM
-Model: LLaMA 3.2 3B Instruct
-Quantization: 4-bit NF4
-Inference: Local GPU execution
-Embeddings
-BAAI/bge-small-en-v1.5
-Lightweight semantic embedding model optimized for retrieval tasks.
-Vector Database
-Qdrant
-Cosine similarity search
-🔬 Example Use Cases
-Scientific textbook QA
-Research paper exploration
-Technical manual querying
-Literature review assistance
-Domain-specific knowledge retrieval
-🔮 Future Improvements
- Multi-turn conversational memory
- Hybrid retrieval (keyword + vector search)
- Citation-aware answers with page references
- Multi-document knowledge base
- Streaming responses
- Reranking for retrieval quality
- Research-paper summarization
-🛠️ Technologies Used
-Python
-PyTorch
-Hugging Face Transformers
-BitsAndBytes
-Qdrant
-Docker
-Gradio
-Sentence Transformers
-👤 Author
+##🧪 Model Configuration
+#LLM
+* Model: LLaMA 3.2 3B Instruct
+* Quantization: 4-bit NF4
+* Inference: Local GPU execution
+#Embeddings
+* BAAI/bge-small-en-v1.5
+* Lightweight semantic embedding model optimized for retrieval tasks.
+#Vector Database
+* Qdrant
+* Cosine similarity search
+
+##🔬 Example Use Cases
+* Scientific textbook QA
+* Research paper exploration
+* Technical manual querying
+* Literature review assistance
+* Domain-specific knowledge retrieval
+
+##🔮 Future Improvements
+* Multi-turn conversational memory
+* Hybrid retrieval (keyword + vector search)
+* Citation-aware answers with page references
+* Multi-document knowledge base
+* Streaming responses
+* Reranking for retrieval quality
+* Research-paper summarization
+  
+##🛠️ Technologies Used
+* Python
+* PyTorch
+* Hugging Face Transformers
+* BitsAndBytes
+* Qdrant
+* Docker
+* Gradio
+* Sentence Transformers
+##👤 Author
 
 Tian Zhao, Ph.D.
 
