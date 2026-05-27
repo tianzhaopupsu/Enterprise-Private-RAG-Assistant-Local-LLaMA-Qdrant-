@@ -216,3 +216,7 @@ Scientific machine learning
 Autonomous microscopy
 Retrieval-Augmented Generation (RAG)
 Local LLM systems
+
+## License
+
+MIT License.
