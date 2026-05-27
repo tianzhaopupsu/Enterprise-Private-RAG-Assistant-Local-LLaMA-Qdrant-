@@ -97,3 +97,119 @@ Mac/Linux
 ```python
 source .venv/bin/activate
 ```
+3. Install dependencies
+
+```python
+pip install -r requirements.txt
+```
+5. Start Qdrant (Docker)
+
+```python
+docker run -p 6333:6333 qdrant/qdrant
+```
+Qdrant dashboard:
+
+```python
+http://localhost:6333/dashboard
+```
+5. Configure environment
+
+Create a .env file:
+
+```python
+QDRANT_HOST=localhost
+QDRANT_PORT=6333
+COLLECTION_NAME=scientific_rag
+
+EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+```
+📚 Document Ingestion
+
+Place a PDF inside:
+
+```python
+data/  (a sample .pdf file is contained in the folder)
+```
+Then run:
+
+```python
+python scripts/ingest_pdf.py
+```
+This will:
+
+1. Extract PDF text
+2. Split into chunks
+3. Generate embeddings
+4. Store vectors in Qdrant
+   
+💬 Run Chatbot (CLI)
+```python
+python main.py
+```
+Example:
+```python
+You: who is the author
+
+Bot:
+Paul Wilmott
+
+Sources:
+[1] Page 4
+Copyright © 2007 Paul Wilmott...
+```
+🌐 Run Web UI (Gradio)
+
+```python
+python app_ui.py
+```
+Open:
+```python
+http://127.0.0.1:7860
+```
+🧪 Model Configuration
+LLM
+Model: LLaMA 3.2 3B Instruct
+Quantization: 4-bit NF4
+Inference: Local GPU execution
+Embeddings
+BAAI/bge-small-en-v1.5
+Lightweight semantic embedding model optimized for retrieval tasks.
+Vector Database
+Qdrant
+Cosine similarity search
+🔬 Example Use Cases
+Scientific textbook QA
+Research paper exploration
+Technical manual querying
+Literature review assistance
+Domain-specific knowledge retrieval
+🔮 Future Improvements
+ Multi-turn conversational memory
+ Hybrid retrieval (keyword + vector search)
+ Citation-aware answers with page references
+ Multi-document knowledge base
+ Streaming responses
+ Reranking for retrieval quality
+ Research-paper summarization
+🛠️ Technologies Used
+Python
+PyTorch
+Hugging Face Transformers
+BitsAndBytes
+Qdrant
+Docker
+Gradio
+Sentence Transformers
+👤 Author
+
+Tian Zhao, Ph.D.
+
+AI/ML Engineer | Computer Vision | Scientific AI Systems
+
+Focused on:
+
+Vision Transformers (ViTs)
+Scientific machine learning
+Autonomous microscopy
+Retrieval-Augmented Generation (RAG)
+Local LLM systems
