@@ -60,13 +60,10 @@ RAG-Scientific-Assistant/
 │   ├── prompt.py
 │   ├── settings.py
 │   └── embeddings.py
-│
-│── scripts/
-│   └── ingest_pdf.py
-│
+
 │── data/
 │   └── example.pdf
-│
+│──ingest_pdf.py
 │── app_ui.py
 │── main.py
 │── requirements.txt
