@@ -77,7 +77,7 @@ RAG-Scientific-Assistant/
 
 
 
-##⚙️ Installation
+## ⚙️ Installation
 1. Clone repository
 ```python
 git clone <your_repo_url>
@@ -123,7 +123,7 @@ COLLECTION_NAME=scientific_rag
 
 EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
 ```
-##📚 Document Ingestion
+## 📚 Document Ingestion
 
 Place a PDF inside:
 
@@ -142,7 +142,7 @@ This will:
 3. Generate embeddings
 4. Store vectors in Qdrant
    
-##💬 Run Chatbot (CLI)
+## 💬 Run Chatbot (CLI)
 ```python
 python main.py
 ```
@@ -157,7 +157,7 @@ Sources:
 [1] Page 4
 Copyright © 2007 Paul Wilmott...
 ```
-##🌐 Run Web UI (Gradio)
+## 🌐 Run Web UI (Gradio)
 
 ```python
 python app_ui.py
@@ -166,7 +166,7 @@ Open:
 ```python
 http://127.0.0.1:7860
 ```
-##🧪 Model Configuration
+## 🧪 Model Configuration
 #LLM
 * Model: LLaMA 3.2 3B Instruct
 * Quantization: 4-bit NF4
@@ -185,7 +185,7 @@ http://127.0.0.1:7860
 * Literature review assistance
 * Domain-specific knowledge retrieval
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 * Multi-turn conversational memory
 * Hybrid retrieval (keyword + vector search)
 * Citation-aware answers with page references
@@ -194,7 +194,7 @@ http://127.0.0.1:7860
 * Reranking for retrieval quality
 * Research-paper summarization
   
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 * Python
 * PyTorch
 * Hugging Face Transformers
@@ -203,7 +203,7 @@ http://127.0.0.1:7860
 * Docker
 * Gradio
 * Sentence Transformers
-##👤 Author
+## 👤 Author
 
 Tian Zhao, Ph.D.
 
