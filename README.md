@@ -162,7 +162,7 @@ http://127.0.0.1:7860
 ```
 ## 📉 RAG Chat Interface (Gradio + LLaMA + Qdrant)
 
-![RAG UI](visualization/RAG_UI.png)
+![RAG UI](RAG_UI.png)
 
 ## 🧪 Model Configuration
 #LLM
