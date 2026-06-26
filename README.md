@@ -20,7 +20,7 @@ Built with:
 
 ✅ Fully local inference (no OpenAI API required)  
 ✅ PDF → chunk → embed → vector database pipeline  
-✅ Semantic retrieval using vector similarity search  
+✅ Semantic retrieval using vector similarity search and reranking
 ✅ Quantized LLaMA inference (4-bit NF4) for reduced VRAM usage  
 ✅ Context-grounded responses to minimize hallucination  
 ✅ Source-aware answers from retrieved document chunks  
@@ -43,7 +43,7 @@ PDF Document
  Vector Storage
     (Qdrant)
       ↓
- Semantic Retrieval
+ Semantic Retrieval (top k + reranking)
       ↓
  Prompt Construction
       ↓
