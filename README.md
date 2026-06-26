@@ -1,4 +1,4 @@
-# 🧠 Scientific RAG Assistant (Local LLaMA + Qdrant)
+# 🧠 Enterprise Private RAG Assistant (Local LLaMA + Qdrant)
 
 A fully local **Retrieval-Augmented Generation (RAG)** system for querying scientific documents using **LLaMA 3.2**, **Qdrant**, and **semantic vector retrieval**.
 
