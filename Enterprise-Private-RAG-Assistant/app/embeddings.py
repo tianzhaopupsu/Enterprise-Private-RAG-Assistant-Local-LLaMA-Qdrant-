@@ -17,4 +17,4 @@ class EmbeddingModel:
             normalize_embeddings=True
         )
 
-        return embedding.tolist()
+        return embedding
