@@ -9,6 +9,7 @@ Built with:
 - **LLaMA 3.2 3B Instruct** (4-bit quantized)
 - **Qdrant Vector Database**
 - **BAAI/bge-small-en-v1.5 Embeddings**
+- **BAAI/bge-reranker-base**
 - **PyTorch + Transformers**
 - **Docker**
 - **Gradio UI**
