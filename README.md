@@ -52,7 +52,7 @@ PDF Document
 ```
 ## 📂 Project Structure
 ```
-RAG-Scientific-Assistant/
+Enterprise-Private-RAG-Assistant/
 │── app/
 │   ├── rag_pipeline.py
 │   ├── retriever.py
@@ -75,7 +75,7 @@ RAG-Scientific-Assistant/
 1. Clone repository
 ```python
 git clone <your_repo_url>
-cd RAG-Scientific-Assistant
+cd Enterprise-Private-RAG-Assistant
 ```
 2. Create virtual environment
 ```python
@@ -177,7 +177,7 @@ http://127.0.0.1:7860
 * Cosine similarity search
 
 ##🔬 Example Use Cases
-* Scientific textbook QA
+* Financial docunent
 * Research paper exploration
 * Technical manual querying
 * Literature review assistance
